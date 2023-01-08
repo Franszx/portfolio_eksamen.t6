@@ -166,8 +166,8 @@ a:hover {
   color: var(--primary);
 }
 .a_01:hover {
-  color: var(--box-color-green);
-  border: solid var(--box-color-blue) 0.3rem;
+  color: var(--primary);
+  border: solid var(--accent) 0.3rem;
   font-weight: var(--fw-secondary);
   margin-bottom: 1rem;
   padding-left: 2rem;
@@ -321,8 +321,8 @@ p {
   }
 
   .a_01:hover {
-    color: var(--box-color-green);
-    border: solid var(--box-color-blue) 0.3rem;
+    color: var(--primary);
+    border: solid var(--primary) 0.3rem;
     font-weight: var(--fw-secondary);
     padding-left: 2rem;
     padding-right: 2rem;
