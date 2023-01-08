@@ -10,10 +10,10 @@ html {
   --box-color-blue: #2d9ff4;
   --box-color-purple: #3f3c97;
   --ff-primary: "montserrat", sans-serif;
-  --ff-secondary: "lobster", sans-serif;
-  --ff-third: "comfortaa", sans-serif;
-  --fw-primary: 100;
-  --fw-secondary: 900;
+  --ff-secondary: "comfortaa", sans-serif;
+  --fw-primary: 200;
+  --fw-secondary: 400;
+  --fw-third: 800;
   background-color: #ffffff;
 }
 body {
@@ -56,9 +56,6 @@ footer {
   padding: 0 0 0 0em;
 }
 .first_section {
-  position: absolute;
-  top: 30%;
-  left: 10%;
   margin: auto;
   padding-top: 0;
 }
@@ -82,7 +79,7 @@ footer {
 h1 {
   color: var(--primary);
   font-family: var(--ff-primary);
-  font-weight: var(--fw-primary);
+  font-weight: var(--fw-third);
   font-size: 3rem;
   min-width: 100%;
   margin: 0;
@@ -92,19 +89,20 @@ h2 {
   padding: 0;
   color: var(--secondary);
   font-family: var(--ff-primary);
+  font-weight: var(--fw-secondary);
   font-size: 1.5rem;
-  font-weight: 100;
 }
 h3 {
   font-family: var(--ff-primary);
-  padding: 0;
+  font-weight: var(--fw-secondary);
   font-size: 1.2em;
   color: var(--primary);
   margin: 0;
-  font-weight: var(--fw-primary);
+  padding: 0;
 }
 h4 {
   font-family: var(--ff-primary);
+  font-weight: var(--fw-primary);
   margin: 0;
   padding: 0;
   font-size: 1rem;
@@ -129,7 +127,7 @@ li:hover {
 a {
   text-decoration: none;
   font-family: var(--ff-primary);
-  font-weight: var(--fw-primary);
+  font-weight: var(--fw-secondary);
   color: var(--secondary);
 }
 .a1:hover {
@@ -191,6 +189,10 @@ p {
   text-align: right;
   font-size: 1rem;
   color: #fff;
+}
+.spacer_large {
+  width: 4rem;
+  height: 4rem;
 }
 
 /* ----------------------------------------media----------------------------------------- */
@@ -254,7 +256,6 @@ p {
   }
 
   .first_section {
-    position: unset;
     display: flex;
     justify-content: space-between;
     padding: 0;
@@ -274,7 +275,7 @@ p {
   }
 
   h1 {
-    font-size: 8em;
+    font-size: 8rem;
     margin: 0;
     padding: 0;
     font-family: var(--ff-primary);
@@ -284,10 +285,10 @@ p {
   h2 {
     margin: 0 0 0 0.9rem;
     padding: 0;
-    color: var(--primary);
+    color: var(--secondary);
     font-family: var(--ff-primary);
     font-size: 1.5em;
-    font-weight: var(--fw-primary);
+    font-weight: var(--fw-secondary);
   }
 
   .spacer_large {
