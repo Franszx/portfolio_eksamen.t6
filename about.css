@@ -1,6 +1,4 @@
 html {
-  --ff-primary: "montserrat", sans-serif;
-  --ff-secondary: "lobster", sans-serif;
   --fw-primary: 100;
   --fw-secondary: 300;
   --space-xxs: 0.75rem;
@@ -9,6 +7,11 @@ html {
   --box-color-red: #d32f52;
   --box-color-blue: #2d9ff4;
   --box-color-purple: #3f3c97;
+  --ff-primary: "montserrat", sans-serif;
+  --ff-secondary: "comfortaa", sans-serif;
+  --fw-primary: 200;
+  --fw-secondary: 400;
+  --fw-third: 800;
 }
 
 .first_about {
@@ -17,14 +20,12 @@ html {
 }
 
 .img_anders {
-  max-width: 70%;
+  max-width: 80%;
   opacity: 0.9;
-  border-radius: 1rem;
 }
 .img_div {
   display: flex;
   justify-content: center;
-  padding: 1em 0 0 0;
 }
 .about_section {
   display: grid;
@@ -53,6 +54,12 @@ a {
   text-decoration: none;
   font-family: var(--ff-primary);
   font-weight: var(--fw-secondary);
+  color: var(--secondary);
+}
+
+a:hover {
+  color: var(--primary);
+  opacity: 0.8;
 }
 
 .about_img {

@@ -66,7 +66,7 @@ footer {
   display: flex;
   flex-direction: column;
   padding: 0;
-  margin: 10em 0 0 0;
+  margin: 5em 0 0 0;
 }
 .sub_front {
   display: flex;
@@ -122,7 +122,7 @@ li {
   list-style: none;
 }
 li:hover {
-  color: var(--five);
+  color: var(--accent);
 }
 a {
   text-decoration: none;
@@ -130,15 +130,7 @@ a {
   font-weight: var(--fw-secondary);
   color: var(--secondary);
 }
-.a1:hover {
-  color: var(--box-color-green);
-}
-.a2:hover {
-  color: var(--box-color-blue);
-}
-.a3:hover {
-  color: var(--box-color-red.5);
-}
+
 a:hover {
   color: var(--primary);
   opacity: 0.8;

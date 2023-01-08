@@ -104,8 +104,8 @@ li:hover {
 a {
   text-decoration: none;
   font-family: var(--ff-primary);
-  font-weight: var(--fw-primary);
-  color: var(--accent);
+  font-weight: var(--fw-secondary);
+  color: var(--secondary);
 }
 
 a:hover {
@@ -286,10 +286,12 @@ p {
   border-bottom: 0.3rem solid var(--accent);
 }
 .a1:hover {
-  color: var(--box-color-green);
+  color: var(--primary);
+  opacity: 0.8;
 }
 .a2:hover {
-  color: var(--box-color-blue);
+  color: var(--primary);
+  opacity: 0.8;
 }
 
 ol {
