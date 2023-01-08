@@ -97,10 +97,6 @@ li {
   list-style: none;
 }
 
-li:hover {
-  color: var(--secondary);
-}
-
 a {
   text-decoration: none;
   font-family: var(--ff-primary);
@@ -120,11 +116,7 @@ a:hover {
   width: 170px;
   border-bottom: none;
 }
-/* .a_projects:hover {
-  opacity: 0.8;
-  border-left: solid 0.1rem var(--five);
-  border-bottom: none;
-} */
+
 a.menu {
   text-align: left;
 }
@@ -137,6 +129,10 @@ a.menu {
   display: grid;
   grid-template-rows: 1fr 1fr;
   justify-items: center;
+}
+.theme_h1 {
+  color: #ffffff;
+  font-size: 2rem;
 }
 h1 {
   color: var(--primary);
@@ -459,6 +455,9 @@ img {
     padding: 0 1em 0 0;
     margin: 0;
     gap: 2em;
+  }
+  .theme_h1 {
+    font-size: 5rem;
   }
   h1 {
     color: var(--primary);
