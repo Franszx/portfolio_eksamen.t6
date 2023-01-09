@@ -5,13 +5,13 @@
 
   const mediaQuery = "600";
 
-  const jaAlignMenu = "center";
+  const jaAlignMenu = "right";
 
-  const leftAlignMenu = "left";
+  const leftAlignMenu = "right";
 
   const marginTopMenu = "1rem";
 
-  const extColor = "#d55e2d";
+  const extColor = "#666f89";
 
   const nav = document.querySelector("nav:where(header *)");
   if (!nav) return;
@@ -66,7 +66,6 @@
       .li_menu { text-align: ${jaAlignMenu}; }\
       .a_menu { text-align: ${leftAlignMenu}; }\
       button[aria-expanded] {\
-        background: unset;\
         border: 1px solid ${boxColor};\
         box-sizing: border-box;\
         border-radius: 8px;\

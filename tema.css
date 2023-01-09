@@ -54,6 +54,7 @@
   width: 90%;
   margin: auto;
   padding-bottom: 4em;
+  text-align: left;
 }
 .content_div {
   width: 100%;
@@ -147,10 +148,11 @@
     letter-spacing: 0.5px;
   }
 
-  .content_main {
+  /* .content_main {
     width: 100%;
     margin: auto;
-  }
+    text-align: left;
+  } */
   .content_div {
     display: flex;
     flex-direction: row;

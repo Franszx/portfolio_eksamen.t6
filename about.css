@@ -28,8 +28,8 @@ html {
   justify-content: center;
 }
 .about_section {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  /* display: grid;
+  grid-template-rows: 1fr 1fr; */
   row-gap: 2rem;
   margin-top: 2em;
 }

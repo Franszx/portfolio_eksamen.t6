@@ -19,8 +19,8 @@ html {
   background-color: #ffffff;
 }
 body {
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100%;
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -28,7 +28,6 @@ main {
   width: 90%;
   margin: auto;
   padding-bottom: 4rem;
-  text-align: left;
 }
 
 .header_01 {
@@ -46,6 +45,13 @@ main {
 
 .project_section {
   margin: auto;
+  text-align: left;
+}
+.body_section {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  row-gap: 2rem;
+  margin-top: 2em;
 }
 .spacer_med {
   width: 4rem;
@@ -133,6 +139,7 @@ a.menu {
 .theme_h1 {
   color: #ffffff;
   font-size: 2rem;
+  text-align: left;
 }
 h1 {
   color: var(--primary);
@@ -140,24 +147,30 @@ h1 {
   font-weight: var(--fw-third);
   letter-spacing: 0;
   font-size: 4rem;
-  margin: 0;
+  margin: auto;
+  width: 40rem;
+  text-align: left;
 }
 h2 {
-  margin: 0;
+  margin: auto;
   padding: 0;
   color: var(--primary);
   font-family: var(--ff-primary);
   font-weight: var(--fw-primary);
   letter-spacing: 0px;
   font-size: 1.5rem;
+  width: 40rem;
+  text-align: left;
 }
 h3 {
   font-family: var(--ff-primary);
   font-weight: var(--fw-secondary);
   padding: 0;
-  margin: 0;
+  margin: auto;
+  text-align: left;
   font-size: 1.2em;
   color: var(--primary);
+  width: 40rem;
 }
 h4 {
   font-family: var(--ff-primary);
@@ -268,15 +281,24 @@ footer {
   box-shadow: inset -4px -4px 8px var(--bg-color), inset 8px 8px 16px var(--bg-color);
   color: var(--bg-color);
 }
-
-p {
-  display: flex;
-  justify-self: center;
-  font-size: var(--space-xs);
+.text_body {
+  font-size: 1rem;
   line-height: 1.8em;
   font-family: var(--ff-primary);
   color: var(--primary);
   font-weight: var(--fw-primary);
+}
+.text_body_01 {
+  font-size: 1rem;
+  line-height: 1.8em;
+  font-family: var(--ff-primary);
+  color: white;
+  font-weight: var(--fw-primary);
+}
+p {
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 .a1 {
   border-bottom: 0.3rem solid var(--accent);
@@ -349,9 +371,6 @@ ol {
   flex-direction: column;
   align-items: center;
 }
-.body_text {
-  max-width: 70%;
-}
 
 img {
   max-width: 100%;
@@ -376,9 +395,10 @@ img {
   }
 
   main {
-    margin: auto;
     width: 1000px;
+    margin: auto;
     padding-bottom: 4rem;
+    text-align: center;
   }
 
   .header_01 {
@@ -393,11 +413,6 @@ img {
     flex-direction: column;
     justify-content: left;
     margin: 0 0 0 0.09rem;
-  }
-
-  .second_header {
-    display: flex;
-    flex-wrap: wrap;
   }
 
   .third_header {
@@ -459,30 +474,36 @@ img {
   .theme_h1 {
     font-size: 5rem;
   }
+  .text_body {
+    margin: auto;
+    width: 40rem;
+  }
+  .text_body_01 {
+    margin: auto;
+    width: 40rem;
+  }
   h1 {
     color: var(--primary);
     letter-spacing: 0;
     font-size: 5rem;
-    margin: 0;
+    margin: auto;
   }
   h2 {
-    margin: 0;
-    padding: 0;
+    margin: auto;
     color: var(--primary);
     font-family: var(--ff-primary);
     letter-spacing: 0px;
     font-size: 2.5rem;
+    padding: 0;
   }
   h3 {
     font-family: var(--ff-primary);
     padding: 0;
     font-size: 1.2rem;
     color: var(--primary);
-    margin: 0;
   }
   h4 {
     font-family: var(--ff-primary);
-    margin: 0;
     padding: 0;
     font-size: 1rem;
     color: var(--secondary);
@@ -524,11 +545,6 @@ img {
     opacity: 1;
     box-shadow: inset -4px -4px 8px rgba(255, 255, 255, 0.792), inset 8px 8px 16px rgba(0, 0, 0, 0.1);
     color: #d9d6d2;
-  }
-
-  .body_text {
-    width: 700px;
-    padding: 0;
   }
   img {
     max-width: 100%;
