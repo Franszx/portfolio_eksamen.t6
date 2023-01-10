@@ -79,7 +79,7 @@ footer {
 h1 {
   color: var(--primary);
   font-family: var(--ff-primary);
-  font-weight: var(--fw-third);
+  font-weight: var(--fw-primary);
   font-size: 3rem;
   min-width: 100%;
   margin: 0;

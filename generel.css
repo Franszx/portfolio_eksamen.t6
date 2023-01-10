@@ -21,13 +21,13 @@ html {
 body {
   height: 100%;
   width: 100%;
-  margin: 0;
-  padding: 0;
+  margin: auto;
 }
 main {
   width: 90%;
   margin: auto;
   padding-bottom: 4rem;
+  text-align: left;
 }
 
 .header_01 {
@@ -36,6 +36,7 @@ main {
   padding: 1em 0 5em 0;
   margin: auto;
   width: 90%;
+  text-align: left;
 }
 
 .simpel_bar {
@@ -72,8 +73,6 @@ main {
 }
 
 .first_header {
-  justify-items: center;
-  flex-direction: column;
   margin: 0;
 }
 
@@ -138,17 +137,20 @@ a.menu {
 }
 .theme_h1 {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 4rem;
   text-align: left;
+  letter-spacing: -1px;
+}
+.header_h3 {
+  padding: 0;
 }
 h1 {
   color: var(--primary);
   font-family: var(--ff-primary);
-  font-weight: var(--fw-third);
-  letter-spacing: 0;
+  font-weight: var(--fw-primary);
+  letter-spacing: -1px;
   font-size: 4rem;
   margin: auto;
-  width: 40rem;
   text-align: left;
 }
 h2 {
@@ -159,7 +161,6 @@ h2 {
   font-weight: var(--fw-primary);
   letter-spacing: 0px;
   font-size: 1.5rem;
-  width: 40rem;
   text-align: left;
 }
 h3 {
@@ -170,7 +171,6 @@ h3 {
   text-align: left;
   font-size: 1.2em;
   color: var(--primary);
-  width: 40rem;
 }
 h4 {
   font-family: var(--ff-primary);
@@ -389,8 +389,8 @@ img {
 /* --------------------------media------------------------- */
 @media (min-width: 1000px) {
   body {
-    margin: 0;
-    padding: 0;
+    width: 100%;
+    height: 100%;
     max-width: 1200vw;
   }
 
@@ -472,7 +472,8 @@ img {
     gap: 2em;
   }
   .theme_h1 {
-    font-size: 5rem;
+    font-size: 6rem;
+    width: 42rem;
   }
   .text_body {
     margin: auto;
@@ -485,7 +486,7 @@ img {
   h1 {
     color: var(--primary);
     letter-spacing: 0;
-    font-size: 5rem;
+    font-size: 6rem;
     margin: auto;
   }
   h2 {
@@ -495,12 +496,15 @@ img {
     letter-spacing: 0px;
     font-size: 2.5rem;
     padding: 0;
+    width: 40rem;
   }
   h3 {
     font-family: var(--ff-primary);
     padding: 0;
     font-size: 1.2rem;
     color: var(--primary);
+    width: 40rem;
+    padding-bottom: 1.5rem;
   }
   h4 {
     font-family: var(--ff-primary);
