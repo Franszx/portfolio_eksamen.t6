@@ -137,7 +137,7 @@ a.menu {
 }
 .theme_h1 {
   color: #ffffff;
-  font-size: 4rem;
+  font-size: 2rem;
   text-align: left;
   letter-spacing: -1px;
 }
@@ -220,7 +220,7 @@ footer {
 }
 
 .a_link {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 .footer_button:nth-child(1) {
   box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.743), 6px 6px 10px rgba(0, 0, 0, 0.2);
@@ -511,6 +511,9 @@ img {
     padding: 0;
     font-size: 1rem;
     color: var(--secondary);
+  }
+  .a_link {
+    font-size: 2rem;
   }
   .a_projects {
     text-align: left;
