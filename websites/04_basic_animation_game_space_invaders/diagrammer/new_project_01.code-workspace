@@ -1,0 +1,19 @@
+{
+  "folders": [
+	{
+		"path": "../../../../../code/new_project_01"
+	},
+	{
+		"path": "../../../02_grundlaeggende_web/02_html/sandbox/burger"
+	},
+	{
+		"path": "../../../02_grundlaeggende_web/02_html/emnesite"
+	},
+	{
+		"path": "../.."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "new_project_01"
+  }
+}

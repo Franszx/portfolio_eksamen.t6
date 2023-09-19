@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 232.41 194.73">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#Sky);
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #2e3192;
+        stroke-miterlimit: 10;
+        stroke-width: 1.72px;
+      }
+
+      .cls-3 {
+        fill: #f2f2f2;
+      }
+
+      .cls-4 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+    <linearGradient id="Sky" x1="-443.43" y1="161.12" x2="-258.07" y2="161.12" gradientTransform="translate(281.5 -254.17) rotate(-93.18) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#cce0f4"/>
+      <stop offset=".06" stop-color="#c2dcf2"/>
+      <stop offset=".17" stop-color="#a9d2ee"/>
+      <stop offset=".31" stop-color="#7fc2e7"/>
+      <stop offset=".46" stop-color="#46abdd"/>
+      <stop offset=".57" stop-color="#1e9cd7"/>
+      <stop offset=".87" stop-color="#0075be"/>
+      <stop offset=".99" stop-color="#005b97"/>
+    </linearGradient>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <path class="cls-2" d="M225.34,141.24c-19.8,47.51-80.94,66.31-136.57,41.99-3.31-1.45-11.87-4.95-21.67-12.04C33.45,146.86,5.69,96.75,23.9,53.17,42.87,7.75,104.52-13.29,160.47,11.17c55.63,24.32,84.67,82.55,64.87,130.07Z"/>
+      <ellipse class="cls-2" cx="136.11" cy="103.24" rx="86.68" ry="97.05" transform="translate(-18.38 176.16) rotate(-62.45)"/>
+      <ellipse class="cls-1" cx="140.06" cy="104.96" rx="79.31" ry="92.72" transform="translate(-16.14 183.92) rotate(-63.66)"/>
+      <ellipse class="cls-2" cx="30.21" cy="93.62" rx="34.38" ry="27.71" transform="translate(-64.94 118.55) rotate(-86.8)"/>
+      <ellipse class="cls-3" cx="93.89" cy="85.97" rx="14.72" ry="17.05" transform="translate(-32.89 74.45) rotate(-37.29)"/>
+      <ellipse class="cls-4" cx="89.84" cy="116.23" rx="5.53" ry="6.47" transform="translate(-54.19 145.18) rotate(-63.66)"/>
+      <ellipse class="cls-2" cx="22.38" cy="93.52" rx="21.52" ry="28.2" transform="translate(-.52 .13) rotate(-.32)"/>
+    </g>
+  </g>
+</svg>

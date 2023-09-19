@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402 224">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #39b54a;
+        stroke: #006837;
+        stroke-width: 4px;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        font-family: AmaticSC-Regular, 'Amatic SC';
+        font-size: 65.71px;
+        stroke: #000;
+      }
+    </style>
+  </defs>
+  <g id="game_over">
+    <g>
+      <rect class="cls-1" x="2" y="2" width="398" height="220" rx="24.71" ry="24.71"/>
+      <text class="cls-2" transform="translate(43.65 83.62) scale(1.74 1)"><tspan x="0" y="0">TRY AGAIN</tspan></text>
+    </g>
+  </g>
+</svg>
